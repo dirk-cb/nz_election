@@ -1,0 +1,52 @@
+[
+  { "id": "northland", "name": "Northland", "col": 4, "row": 0, "party": "National" }
+  ,{ "id": "whangarei", "name": "Whangarei", "col": 4, "row": 1, "party": "National" }
+  ,{ "id": "kaipara", "name": "Kaipara Ki Mahurangi", "col": 5, "row": 2, "party": "National", "nick": "Kaipara Ki\nMahurangi" }
+  ,{ "id": "auckland-1", "name": "", "col": 5, "row": 3, "party": null, "auckland": true, "region": "Auckland"}
+  ,{ "id": "auckland-2", "name": "", "col": 6, "row": 4, "party": null, "auckland": true,  "region": "Auckland"}
+  ,{ "id": "auckland-3", "name": "", "col": 6, "row": 3, "party": null, "auckland": true,  "region": "Auckland"}
+  ,{ "id": "", "name": "Waitakerei", "col": 5, "row": 5, "party": "National"}
+  ,{ "id": "", "name": "Papakura", "col": 7, "row": 4, "party": "National" }
+  ,{ "id": "", "name": "Coromandel", "col": 7, "row": 5, "party": "National" }
+  ,{ "id": "", "name": "Port Waikato", "col": 6, "row": 5, "party": "National" , "nick": "Port\nWaikato" }
+  ,{ "id": "", "name": "Waikato", "col": 5, "row": 6, "party": "National" }
+  ,{ "id": "", "name": "Rotorua", "col": 6, "row": 6, "party": "National" }
+  ,{ "id": "", "name": "Tauranga", "col": 7, "row": 6, "party": "National" }
+  ,{ "id": "", "name": "Mount Maunganui", "col": 8, "row": 6, "party": "National" , "nick": "Mt\nMaunganui" }
+  ,{ "id": "", "name": "East Cape", "col": 9, "row": 6, "party": "National" }
+  ,{ "id": "", "name": "Hamilton West", "col": 5, "row": 7, "party": "National" , "nick": "Hamilton\nWest"  }
+  ,{ "id": "", "name": "Hamilton East", "col": 6, "row": 7, "party": "National" , "nick": "Hamilton\nEast"  }
+  ,{ "id": "", "name": "Taupo", "col": 7, "row": 7, "party": "National" }
+  ,{ "id": "", "name": "Napier", "col": 8, "row": 7, "party": "National" }
+  ,{ "id": "", "name": "New Plymouth", "col": 4, "row": 8, "party": "National", "nick": "New\nPlymouth" }
+  ,{ "id": "", "name": "Taranaki", "col": 5, "row": 8, "party": "National" }
+  ,{ "id": "", "name": "Whanganui", "col": 6, "row": 8, "party": "National" }
+  ,{ "id": "", "name": "Wairarapa", "col": 7, "row": 8, "party": "National" }
+  ,{ "id": "", "name": "Tukituki", "col": 8, "row": 8, "party": "National" }
+  ,{ "id": "", "name": "Rangitikei", "col": 5, "row": 9, "party": "National" }
+  ,{ "id": "", "name": "Palmerston North", "col": 6, "row": 9, "party": "Labour", "nick":"Palmy" }
+  ,{ "id": "", "name": "Remutaka", "col": 7, "row": 9, "party": "Labour" }
+  ,{ "id": "", "name": "Kenepuru", "col": 6, "row": 10, "party": "Labour" }
+  ,{ "id": "", "name": "Hutt South", "col": 7, "row": 10, "party": "National", "nick": "Hutt\nSouth" }
+  ,{ "id": "", "name": "Kapiti", "col": 5, "row": 11, "party": "Labour" }
+  ,{ "id": "", "name": "Wellington Bays", "col": 6, "row": 11, "party": "Green", "nick": "Wgtn\nBays" }
+  ,{ "id": "", "name": "Wellington North", "col": 6, "row": 12, "party": "Green", "nick": "Wgtn\nNorth" }
+
+  ,{ "id": "", "name": "Nelson", "col": 3, "row": 11, "party": "National" }
+  ,{ "id": "", "name": "West Coast", "col": 3, "row": 12, "party": "National" }
+  ,{ "id": "", "name": "Kaikoura", "col": 4, "row": 12, "party": "National" }
+  ,{ "id": "", "name": "Selwynn", "col": 2, "row": 13, "party": "Labour" }
+  ,{ "id": "", "name": "Waimakariri", "col": 3, "row": 13, "party": "National" }
+  ,{ "id": "", "name": "Ilam", "col": 2, "row": 14, "party": "National" }
+  ,{ "id": "", "name": "Christchurch East", "col": 3, "row": 14, "party": "Labour", "nick":"Chch\nEast" }
+  ,{ "id": "", "name": "Wigram", "col": 1, "row": 15, "party": "Labour" }
+  ,{ "id": "", "name": "Christchurch Central", "col": 2, "row": 15, "party": "Labour", "nick": "Chch\nCentral"}
+  ,{ "id": "", "name": "Waitaki", "col": 1, "row": 16, "party": "National" }
+  ,{ "id": "", "name": "Rangitata", "col": 2, "row": 16, "party": "National" }
+  ,{ "id": "", "name": "Banks Penisula", "col": 3, "row": 16, "party": "National", "nick":"Banks\nPenisula" }
+  ,{ "id": "", "name": "Southland", "col": 0, "row": 17, "party": "National" }
+  ,{ "id": "", "name": "Dunedin", "col": 1, "row": 17, "party": "Labour" }
+  ,{ "id": "", "name": "Invercargill", "col": 0, "row": 18, "party": "National" }
+  ,{ "id": "", "name": "Taieri", "col": 1, "row": 18, "party": "Labour" }
+  
+]

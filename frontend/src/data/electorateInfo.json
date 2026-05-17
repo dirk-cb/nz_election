@@ -1,0 +1,362 @@
+[
+    {
+        "Electorate": "Auckland Central",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Banks Peninsula",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Bay of Plenty",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Botany",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Christchurch Central",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Christchurch East",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Coromandel",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Dunedin",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "East Coast",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "East Coast Bays",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Epsom",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Hamilton East",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Hamilton West",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Hutt South",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Ilam",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Invercargill",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Kaik\u014dura",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Kaipara ki Mahurangi",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Kelston",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Mana",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "M\u0101ngere",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Manurewa",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Maungakiekie",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Mt Albert",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Mt Roskill",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Napier",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Nelson",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "New Lynn",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "New Plymouth",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "North Shore",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Northcote",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Northland",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "\u014ch\u0101riu",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "\u014ctaki",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Pakuranga",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Palmerston North",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Panmure-\u014ct\u0101huhu",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Papakura",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Port Waikato",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Rangitata",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Rangit\u012bkei",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Remutaka",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Rongotai",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Rotorua",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Selwyn",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Southland",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Taieri",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Takanini",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "T\u0101maki",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Taranaki-King Country",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Taup\u014d",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Tauranga",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Te Atat\u016b",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Tukituki",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Upper Harbour",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Waikato",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Waimakariri",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Wairarapa",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Waitaki",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Wellington Central",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "West Coast-Tasman",
+        "Type": "Rural",
+        "Region": ""
+    },
+    {
+        "Electorate": "Whanganui",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Whangapar\u0101oa",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Whang\u0101rei",
+        "Type": "Mixed",
+        "Region": ""
+    },
+    {
+        "Electorate": "Wigram",
+        "Type": "Urban",
+        "Region": ""
+    },
+    {
+        "Electorate": "Hauraki-Waikato",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "Ikaroa-R\u0101whiti",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "T\u0101maki Makaurau",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "Te Tai Hau\u0101uru",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "Te Tai Tokerau",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "Te Tai Tonga",
+        "Type": "Maori",
+        "Region": ""
+    },
+    {
+        "Electorate": "Waiariki",
+        "Type": "Maori",
+        "Region": ""
+    }
+]
