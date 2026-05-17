@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://dirk-cb.github.io/nz-election",
+  "homepage": "https://dirk-cb.github.io/nz_election",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
