@@ -12,6 +12,10 @@ import { min, max } from "d3-array";
 import { easeLinear } from "d3-ease";
 import { color, rgb, type RGBColor } from "d3-color";
 
+
+
+export const PoliticalPartyList = ["National", "Labour", "Greens", "Māori", "ACT", "NZ First", "TOP", "Other"]
+
 // Pre-calculating for efficency so when React updates
 const calculatePartyVoteResults = () => {
 
@@ -125,8 +129,6 @@ export const ElectorateVoteResultsTableFormat = (()=>{
 
 
 
-export const PoliticalPartyList = ["National", "Labour", "Greens", "Māori", "ACT", "NZ First", "TOP", "Other"]
-
 //
 const calculateBivarDemographic2Options = () => {
     // Filter out years
@@ -164,6 +166,58 @@ export const PartyVoteResults = calculatePartyVoteResults();
 export const BivarDemographic2Options = calculateBivarDemographic2Options();
 export const ElectorateList = calculateElectorates();
 
+
+export const getBivarDemographicForTooltip = (electorate: string, demographics: any): string[] => {
+
+
+    const demoPolitical = demographics.demographic1;
+    const demoCensus = demographics.demographic2;
+
+    const isWhole = demoCensus.includes("Median") || demoCensus.includes("Mean");
+    const isDollar = demoCensus.includes("Income");
+
+    const vote = party_vote.find((row)=>row.Electorate == electorate && row.Stat === "Percent" && row.Party === demoPolitical)?.Votes;
+    const demopct = census.find((row)=>row.Electorate == electorate && (row.Stat === "Percent" || isWhole) && row.Category === demoCensus)?.Value;
+
+
+    let votestrs = [];
+
+    if (vote) votestrs.push(demoPolitical + " - " + vote.toFixed(2) + "%");
+
+    if (demopct && isWhole) votestrs.push(demoCensus + " - " + (isDollar ? "$" : "") + demopct.toLocaleString());
+    else if (demopct) votestrs.push(demoCensus + " - " + demopct.toFixed(2) + "%")
+
+    return votestrs;
+
+
+};
+
+export const getDemographicForTooltip = (electorate: string, demographic: string): string[] => {
+
+    let returnstr = ""
+
+    const isWhole = demographic.includes("Median") || demographic.includes("Mean");
+    const isDollar = demographic.includes("Income");
+
+    //census.filter((row)=> row.Category === demo), (d) => d.Value) || 0;
+    if (PoliticalPartyList.includes(demographic)) {
+
+        const vote = party_vote.find((row)=>row.Electorate == electorate && row.Stat === "Percent" && row.Party === demographic)?.Votes;
+
+        if (vote) returnstr += demographic + " - " + vote.toFixed(2) + "%";
+    } else {
+
+        const demopct = census.find((row)=>row.Electorate == electorate && (row.Stat === "Percent" || isWhole) && row.Category === demographic)?.Value;
+
+        if (demopct && isWhole) returnstr += demographic + " - " + (isDollar ? "$" : "") + demopct.toLocaleString();
+        else if (demopct) returnstr += demographic + " - " + demopct.toFixed(2) + "%";
+
+    }
+
+
+    return [returnstr]
+
+};
 
 
 

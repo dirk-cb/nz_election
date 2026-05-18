@@ -120,7 +120,17 @@ export const Map = ({mapData}: {mapData: any}) => {
             setShowTooltip={setShowTooltip}
         />
         <Legend type="ColourScale" legendInfo={legendInfo} isShowing={clickedElectorate !== null} />
-        { position.show && <Tooltip x={position.x} y={position.y} electorate={position.electorate}  showTooltip={showTooltip}/>}
+        { position.show && 
+            <Tooltip 
+                x={position.x} 
+                y={position.y} 
+                electorate={position.electorate} 
+                showTooltip={showTooltip}
+                uniDemographic={filterDemographic}
+                bivarDemographic={filterBivariateDemographic}
+                currentView={filterMapType}
+            />
+        }
 
 
         {
